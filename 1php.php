@@ -15,7 +15,7 @@ if (isset($_GET['color'])) {
 }
 
 // Задание 5
-$language = "ru"
+$language = "ru";
 if (isset($_GET['lang'])) {
     $language = $_GET['lang'];
 }
